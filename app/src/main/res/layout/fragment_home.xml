@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    tools:context=".HomeFragment">
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_centerInParent="true"
+      android:orientation="vertical"
+      >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="24dp"
+          android:textColor="#fff"
+          android:textAlignment="center"
+          android:text="COVID-19\nGlobal Cases"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtlabeltotalconfirmed"
+          android:textColor="#fff"
+          style="@style/Label"
+          android:text="Total Confirmed"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txttotalconfirmed"
+          android:textColor="@color/colorconfirmed"
+          style="@style/Total"
+          android:text="1234"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtlabeltotaldeaths"
+          android:textColor="#fff"
+          style="@style/Label"
+          android:text="Total Deaths"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txttotaldeaths"
+          android:textColor="@color/colordeaths"
+          style="@style/Total"
+          android:text="1234"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtlabeltotalrecovered"
+          android:textColor="#fff"
+          style="@style/Label"
+          android:text="Total Recovered"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/txttotalrecovered"
+          android:textColor="@color/colorrecovered"
+          style="@style/Total"
+          android:text="1234"
+          />
+  </LinearLayout>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/progress_circular_home"
+    android:layout_centerInParent="true"
+    android:indeterminate="true"
+    android:indeterminateDrawable="@drawable/ic_radio_button_unchecked_black_24dp"/>
+</RelativeLayout>
