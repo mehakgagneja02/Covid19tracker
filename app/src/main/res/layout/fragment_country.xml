@@ -3,20 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/colorPrimary"
+    android:background="#fff"
     tools:context=".CountryFragment">
 
-   <androidx.recyclerview.widget.RecyclerView
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:id="@+id/country"
-       tools:listitem="@layout/countrylist">
-   </androidx.recyclerview.widget.RecyclerView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/countrylist"></androidx.recyclerview.widget.RecyclerView>
+
     <ProgressBar
+        android:id="@+id/progress_circular_country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/progress_circular"
         android:layout_centerInParent="true"
-        android:indeterminateDrawable="@drawable/ic_radio_button_unchecked_black_24dp"
-        android:indeterminate="true"/>
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/ic_radio_button_unchecked_black_24dp" />
 </RelativeLayout>

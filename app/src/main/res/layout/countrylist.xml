@@ -14,18 +14,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorconfirmed"
-        android:id="@+id/txttotalcases"
-        tools:text="82343"
+        android:id="@+id/txtcountry"
+        tools:text="India"
         android:textSize="22sp"
         style="@style/Label"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:id="@+id/txtcountry"
-        tools:text="India"
-        android:layout_marginLeft="16dp"
+        android:textColor="@color/colorconfirmed"
+        android:id="@+id/txttotalcases"
+        tools:text="82343"
+        android:layout_marginLeft="18dp"
         android:textSize="22sp"
         style="@style/Label"/>
 </LinearLayout>

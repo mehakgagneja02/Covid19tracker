@@ -4,18 +4,18 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:iconTint="#fff"
+        android:iconTint="#222222"
         android:title="@string/title_home" />
 
     <item
         android:id="@+id/navigation_country"
         android:icon="@drawable/ic_public_black_24dp"
-        android:iconTint="#fff"
+        android:iconTint="#222222"
         android:title="@string/title_country" />
     <item
         android:id="@+id/navigation_faqs"
         android:icon="@drawable/ic_more_black_24dp"
-        android:iconTint="#fff"
+        android:iconTint="#222222"
         android:title="@string/title_faqs" />
 
 
